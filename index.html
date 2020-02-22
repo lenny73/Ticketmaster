@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <title>Leonid Suchkov</title>
+  <link rel="stylesheet" href="stylejs.css" title="Default Style" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Mandali&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli|Raleway|Roboto|Sniglet" rel="stylesheet">
+  <link rel="icon" type="image/ico" href="https://img2-placeit-net.s3-accelerate.amazonaws.com/uploads/stage/stage_image/16496/large_thumb_stage.jpg" />
+
+</head>
+
+<body>
+  <div class="flex-container" id="home">
+    <div class="logo"><a href="#home"><img src="image/logo.png" alt="logo" class="logo"></a></div>
+    <ul class="navigation">
+      <li><a href="#form" target="_blank"">Home</a></li>
+      <li><a href="https://www.ticketmaster.com/" target="_blank" >About</a></li>
+      <li><a href="https://www.twitter.com/" target="_blank" >Blog</a></li>
+      <li><a href="https://www.ticketmaster.com/" target="_blank" >Tickets</a></li>
+      <li><a href="https://www.google.com/maps" target="_blank" >Contact</a></li>
+    </ul>
+  </div>
+  <header>
+
+    <marquee direction="right">Welcome to Our Show <span id="date"></span></marquee>
+
+  </header>
+
+  <!-- <form class="" action="index.html" method="post">
+    <input type="text" name="firstName" placeholder="First name" id="firstName">
+    <input type="text" name="lestName" placeholder="Last name" id="lastName">
+    <input type="submit" value="Submit" id="btn">
+  </form> -->
+
+
+
+  <div class='main'>
+    <div class='content'>
+
+
+      <h2>Story
+        of Chicago</h2>
+
+      <p>
+
+        Set in the legendary city during the roaring “jazz hot” 20s, Chicago tells the story of two rival vaudevillian murderesses locked up in Cook County Jail. Nightclub star Velma’s serving time for killing her husband and sister after finding
+        the two in bed together. Driven chorus girl Roxie’s been tossed in the joint for bumping off the lover she’s been cheating on her husband with. Not one to rest on her laurels, Velma enlists the help of prison matron Mama Morton and slickster
+        lawyer Billy Flynn, who turn Velma’s incarceration into a murder-of-the-week media frenzy, thus preparing the world for a splashy showbiz comeback. But Roxie’s got some of her own tricks up her sleeve…</p>
+      <video width="700" controls autoplay loop poster="image/fun.jpg">
+        <source src="video/video.mp4" type="video/mp4">
+        <!-- <source src="video/GubatBeach.webm" type="video/webm"> -->
+        <track kind="subtitles" src="caption.vtt" srclang="en" label="English" default>
+      </video>
+
+      <p>" Chicago still glitters hypnotically! It remains the best adult entertainment in town&hellip; and still bubbles with the joy of performing! "</p>
+      <h3>Review by Ben Brantley from Chicago </h3>
+      <p>
+        " Chicago is as crazy-fun as ever! Chicago is as crazy-fun as ever! "</p>
+
+      <h3>Review by Jess Cagle from WCBS-TV </h3>
+
+      <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="video/song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+    </div>
+    <div class='sidebar'>
+
+      <div class="first">
+
+        <h2>Story
+          of Oklahoma!</h2>
+
+
+        <p id="head">
+          “How is it that the coolest new show on Broadway is a 1943 musical?” (The New York Times)<img src="image/bway.jpg" alt="logo" class="image" align="left"> </p>
+          <p >Over 75 years after Rodgers & Hammerstein reinvented the American musical, this is OKLAHOMA! as you’ve never seen or heard it before – reimagined for the 21st century. “This production shocked and moved me,” raves Frank Rich of New York
+          Magazine. “Forget your traditional idea of Oklahoma! Daniel Fish’s daring, brilliant, utterly absorbing re-interpretation is dark and different—brilliantly so.” (The Daily Beast) “An audacious, sexy, upending ride” (NY1) that’s “as
+          stimulating and jolting – and as fresh – as last night’s fever dream. Oklahoma! is astonishing.” (The New York Times) <img src="image/img.jpg" alt="logo" class="img">
+        </p>
+      </div>
+
+
+
+
+    </div>
+
+
+    <div class="footer" id="contacts">
+      <p>Connect With Us</p>
+      <div class="icon">
+        <ol class="social">
+          <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+          <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+          <li><a href="https://www.yelp.com/" class="fa fa-youtube"></a></li>
+          <li><a href="#" class="fa fa-google"></a></li>
+          <li><a href="#" class="fa fa-linkedin"></a></li>
+        </ol>
+        <div class="form-wrap">
+          <label for="email" style="font-family: 'Muli', sans-serif" ;>GET BEST OFFERS BY EMAIL:</label>
+          <input type="email" id="email" placeholder="Enter you email address" name="email">
+          <button type="submit"><a href="mailto:someone@example.com?Subject=Hello%20again">Send</a></button>
+        </div>
+        <p class="copyright">&copy;Copyright 2019 Leonid Suchkov.</p>
+      </div>
+    </div>
+
+
+
+
+    <!--
+  <script type="text/javascript" src="script.js"></script> -->
+</body>
+<script>
+  var date = new Date();
+  document.getElementById("date").innerHTML = date.toDateString();
+</script>
+
+</html>
